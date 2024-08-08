@@ -1,0 +1,1 @@
+import{u as r}from"./useQuery-CfinWix-.js";import{a as t}from"./axiosInstance-f51KjAOb.js";const a=async()=>await(await t.get("/v1/super-category")).data.data,u=()=>r({queryKey:["superCategories"],queryFn:a,select:e=>e});export{u};

@@ -1,0 +1,1 @@
+import{u as n,j as t,F as s}from"./index-HH_UOIZx.js";import{B as i}from"./Button-BxVRjdO9.js";const r=()=>{const e=n();return t.jsx(s,{justify:"center",align:"center",style:{height:"100vh"},children:t.jsx(i,{onClick:()=>e("/auth/login"),children:"Login"})})};export{r as default};

@@ -1,0 +1,1 @@
+import{u as s}from"./useQuery-CfinWix-.js";import{a as e}from"./axiosInstance-f51KjAOb.js";const r=async()=>await(await e.get("/accounting-lists")).data.list,c=()=>s({queryKey:["accountList"],queryFn:r,select:t=>t});export{c as u};
